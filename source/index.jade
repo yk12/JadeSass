@@ -8,15 +8,20 @@ head
   link(rel="shortcut icon", href="./assets/img/favicons/favicon.ico")
   link(rel="stylesheet", href="assets/css/main.css")
 body
-  .container
-    header
-      nav
-        .logo Testing
-        ul
-          li: a(href="#") Home
-          li: a(href="#") Test
-          li: a(href="#") Test2
-    .body
-    footer
+  header
+    .header 
+      span Testing
+    
+    .handle
+      a(href="#"): i.fa.fa-bars.fa-lg
+    
+    nav
+      ul
+        li: a(href="#"): span Home
+        li: a(href="#"): span Test
+        li: a(href="#"): span Test2
+        li: a(href="#"): span Test2
+  .body
+  footer
   script(src="./assets/js/jquery-2.2.4.min.js")
   script(src="./assets/js/functions.js")

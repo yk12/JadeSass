@@ -1,7 +1,15 @@
 // compileCompressed: ../../../build/assets/css/main.css﻿
-@import 'fonts'
-@import 'normalize'
-@import 'vars'
+/*------Tools-------*/
+@import 'tools/normalize'
+@import 'tools/bourbon/bourbon'
+@import 'tools/fontawesome/font-awesome'
+
+/*------Config-------*/
+@import 'config/fonts'
+@import 'config/vars'
+
+/*-----Modules-----*/
+@import 'modules/header'
 
 body
   margin: 0
